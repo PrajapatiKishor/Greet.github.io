@@ -1,0 +1,39 @@
+    /* * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0px;
+}
+
+#Main-Div {
+    width: 100%;
+    height: 100vh;
+    font-size: 32px;
+    color: gray;
+    text-align: center;
+    border: 1px solid black;
+   
+} */
+    
+    #main-table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 800px;
+        margin: auto;
+    }
+    
+    #main-table>thead>tr>td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #main-table>tbody>tr>td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #table-row {
+        text-align: center;
+    }
